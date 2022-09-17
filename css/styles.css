@@ -1,0 +1,76 @@
+
+:root {
+    --primery-text-color: #212121;
+    --accent-color: #2196F3;
+    --paragraph-text-color: #757575;
+    --primery-white-color: #ffffff;}
+
+.body {background-color: #F5F5F5;
+color: var(--primery-text-color);}    
+
+body {font-family: Roboto, sans-serif;}
+ul {list-style: none;}
+
+.page-header {background-color: var(--primery-white-color);}
+
+
+/* Site nav */
+.site-nav .link {color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.site-nav .link:hover,
+.site-nav .link:focus {color: var(--accent-color);}
+
+/* Contacts */
+.contacts .contacts-link {color: var(--paragraph-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {color: #2196F3;}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+
+}
+
+.hero-title {
+color: var(--primery-white-color) ;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;}
+
+/* Section */
+.hide {visibility: hidden;}
+.section-title {color: var(--primery-text-color);}
+
+/* Feature */
+.feature-list .title {color: var(--primery-text-color);}
+
+/* Paragraph */
+.paragraph {color: var(--paragraph-text-color);}
+
+/* Button */
+.button {background-color: var(--accent-color);
+color: var(--primery-white-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+}
+
+/* Footer */
+.footer {background-color:  #2F303A;}
+.address {color: var(--primery-white-color);}
+.information-link {color: rgba(255, 255, 255, 0.6);}
+
+
+/* Logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #2196F3;
+}
