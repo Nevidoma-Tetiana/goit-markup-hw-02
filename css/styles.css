@@ -13,6 +13,13 @@ ul {list-style: none;}
 
 .page-header {background-color: var(--primery-white-color);}
 
+/* Logo */
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #2196F3;
+}
+.span {color: #000000;}
+
 
 /* Site nav */
 .site-nav .link {color: var(--primery-text-color);
@@ -63,14 +70,20 @@ font-size: 16px;
 line-height: 30px;
 }
 
+/* Btn */
+.btn-second {
+    background-color: #F5F4FA;
+    color: var(--primery-text-color);  
+cursor: pointer;
+}
+.btn-second:hover,
+.btn-second:focus {background-color: var(--accent-color);}
+
+
+
 /* Footer */
 .footer {background-color:  #2F303A;}
 .address {color: var(--primery-white-color);}
 .information-link {color: rgba(255, 255, 255, 0.6);}
 
 
-/* Logo */
-.logo {
-    font-family: Raleway, sans-serif;
-    color: #2196F3;
-}
