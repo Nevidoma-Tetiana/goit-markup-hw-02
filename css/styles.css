@@ -58,7 +58,6 @@ a {
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;
-    
 }
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus {color: #2196F3; }
@@ -129,7 +128,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 .button:hover,
-.button:focus {background-color: #2196F3;
+.button:focus {background-color: #188CE8;
 }
 
 .btn-second {
@@ -169,7 +168,7 @@ line-height: 24px;
 .information-link {color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-size: 14px;
-line-height: 24px;}
+line-height: 24px; }
 
 /* Logotype */
 .logotype {
